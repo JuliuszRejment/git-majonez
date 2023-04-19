@@ -1,0 +1,45 @@
+    1  history
+    2  cd Dokumenty/
+    3  mkdir git-majonez
+    4  cd git-majonez/
+    5  git init
+    6  touch main.cpp
+    7  code main.cpp
+    8  git commit -m"Initial commit"
+    9  git add .
+   10  git commit -m"Initial commit"
+   11  git add .
+   12  git commit -m"Farewell changed"
+   13  
+   14  git remote add origin https://github.com/JuliuszRejment/git-majonez.git
+   15  git status
+   16  git config
+   17  git config -l
+   18  git push -u origin master
+   19  git branch cs
+   20  git checkout cs
+   21  git log
+   22  git reset 057b8d51d2cc43e9f7b5fb196b0f166aa927969e
+   23  git log
+   24  git commit -m"Greetings"
+   25  git add .
+   26  git commit -m"Greetings"
+   27  git log
+   28  git push origin cs
+   29  checkout master
+   30  git checkout master
+   31  git merge master cs
+   32  git add main.cpp
+   33  git merge master cs
+   34  git status
+   35  git log
+   36  git checkout cs
+   37  git log
+   38  git checkout master
+   39  git merge master cs
+   40  git status
+   41  code main.cpp
+   42  git status
+   43  git add main.cpp
+   44  git commit
+   45  history >> history.txt
